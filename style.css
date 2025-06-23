@@ -9,7 +9,7 @@
 
         fieldset {
             padding: 30px;
-            border-radius: 20px; /* 👈 Borda arredondada */
+            border-radius: 20px; 
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border: none;
@@ -28,7 +28,7 @@
             margin: 8px 0;
             box-sizing: border-box;
             font-size: 16px;
-            border-radius: 10px; /* 👈 Borda arredondada nos inputs */
+            border-radius: 10px;
             border: 1px solid #ccc;
         }
 
@@ -41,7 +41,7 @@
             font-size: 16px;
             cursor: pointer;
             margin-top: 10px;
-            border-radius: 10px; /* 👈 Borda arredondada nos botões */
+            border-radius: 10px; 
         }
 
         .senha-container {
