@@ -4,28 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Lading Page Melhorada</title>
+    <title>Portifólio</title>
 </head>
 <body>
-<form onsubmit="return acessarSistema()">
-        <fieldset>
-            <h1>Faça seu Login</h1>
+    <nav>
+        <button onclick="mostrarPagina('inicio')">Início</button>
+        <button onclick="mostrarPagina('sobre')">Sobre</button>
+        <button onclick="mostrarPagina('projetos')">Projetos</button>
+        <button onclick="mostarPagina('habilidades')">Habilidades</button>
+        <button onclick="mostrarPagina('contato')">Contato</button>
+    </nav>
 
-            <input type="email" id="email" placeholder="Digite seu Email" required>
+    <main id="conteudo"></main>
 
-            <div class="senha-container">
-                <input type="password" id="senha" placeholder="Digite sua Senha" required>
-                <button type="button" onclick="mostrarSenha()">👁</button>
-            </div>
+    <footer>
+    ₢ 2025 - Tomas Padilha Morelli. Todos os diretos reservados.
+    </footer>
 
-            <button type="submit">Acessar</button>
-
-            <div class="redefinir">
-                <a href="#" onclick="redefinirSenha()">Esqueceu sua senha?</a>
-            </div>
-        </fieldset>
-    </form>
-
-<script src="./script.js"></script>
+    <script src="./scritp.js"></script>
 </body>
 </html>
